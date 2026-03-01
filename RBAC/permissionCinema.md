@@ -2,15 +2,15 @@
 
 - `view.movie` Visualizar filmes ativos
 - `manage.movie` Edita, ativa e desativa filmes
-- `buy.titcket` Comprar ingresso
+- `buy.ticket` Comprar ingresso
 - `see.ticket` Ver todos os ingressos comprados
 - `see.own.ticket` Ver meus ingressos (client)
 - `manage.ticket` Edita, cria e cancela um ingresso para um filme
-- `cancel.titcket` Cancelar ingresso
+- `cancel.ticket` Cancelar ingresso
 - `view.room` Visualizar salas ativas
 - `manage.room` Edita, ativa e desativa salas
-- `manage.seats` Edita, ativa e desativa assentos dentro de uma sala
 - `view.seat` Visualiza assentos ativos
+- `manage.seats` Edita, ativa e desativa assentos dentro de uma sala
 - `view.session` Visualiza sessão ativa de um filme
 - `manage.session` Edita, ativa e desativa sessões para um filme
 - `view.booking` Ver reservas de sessões ativas
