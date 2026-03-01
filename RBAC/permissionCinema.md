@@ -1,29 +1,28 @@
 # PERMISSION CINEMA
 
 - `view.movie` Visualizar filmes ativos
-- `manage.movie` Edita, ativa e desativa filmes
+- `manage.movie` Gerenciar filmes (criar, editar, ativar/desativar)
 - `buy.ticket` Comprar ingresso
-- `see.ticket` Ver todos os ingressos comprados
-- `see.own.ticket` Ver meus ingressos (client)
-- `manage.ticket` Edita, cria e cancela um ingresso para um filme
-- `cancel.ticket` Cancelar ingresso
+- `see.ticket` Visualizar todos os ingressos comprados
+- `see.own.ticket` Visualizar meus ingressos (client)
+- `manage.ticket` Gerenciar ingressos de um filme (criar, editar, ativar/cancelar)
 - `view.room` Visualizar salas ativas
-- `manage.room` Edita, ativa e desativa salas
+- `manage.room` Gerenciar salas (criar, editar, ativar/desativar)
 - `view.seat` Visualiza assentos ativos
-- `manage.seats` Edita, ativa e desativa assentos dentro de uma sala
+- `manage.seats` Gerenciar assentos dentro de uma sala (criar, editar, ativar/desativar)
 - `view.session` Visualiza sessão ativa de um filme
-- `manage.session` Edita, ativa e desativa sessões para um filme
-- `view.booking` Ver reservas de sessões ativas
-- `see.own.booking` Ver minha reserva (client)
+- `manage.session` Gerenciar sessões de um filme (criar, editar, ativar/desativar)
+- `view.booking` Visualizar reservas de sessões ativas
+- `see.own.booking` Visualizar minha reserva (client)
 - `update.booking` Edita informação de reservas
 - `create.booking` Cria nova reserva
-- `manage.booking` Gerencia Reservas
-- `view.vipOrder` Ver todos os pedidos da sala vip (bomboniere)
-- `see.own.vipOrder` Ver meu pedido (client)
-- `send.vipOrder` Enviar pedidos bomboniere
-- `status.vipOrder` Mostra status do pedido bomboniere
+- `manage.booking` Gerenciar Reservas (criar, editar, ativar/desativar)
+- `view.vipOrder` Visualizar todos os pedidos da sala vip (destinado para bomboniere)
+- `see.own.vipOrder` Visualizar meu pedido (client)
+- `send.vipOrder` Enviar pedidos para bomboniere
+- `status.vipOrder` Mostra status do pedido na bomboniere
 - `create.vipOrder` Cria um pedido para a bomboniere
-- `manage.users` Gerencia permission e roles dos usuários
+- `manage.users` Gerenciar permission e roles dos usuários
 - `creat.client` Criar novo cliente
-- `view.client` Ver clientes
-- `manage.client` Gerencia cadastros de clientes
+- `view.client` Visualizar clientes
+- `manage.client` Gerenciar cadastros de clientes (editar, ativar/desativar)
