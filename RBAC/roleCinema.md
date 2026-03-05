@@ -1,6 +1,6 @@
 # ROLE CINEMA
 
-- `admin.cinema` Administrador do sistema
-- `client.cinema` Usuário que compra ingressos
-- `atendente.cinema` Funcionário que vende ingressos
-- `gerente.cinema` Gerencia o sistema
+- `admin_cinema` Administrador do sistema
+- `client_cinema` Usuário que compra ingressos
+- `atendente_cinema` Funcionário que vende ingressos
+- `gerente_cinema` Gerencia o sistema

@@ -4,13 +4,13 @@
 
 - `id` PK, uuid, obrigatório
 - `name` varchar, min 3 caracteres, obrigatório
-- `email` UNIQUE, varchar, obrigatório
-- `password.hash` varchar, min 8 caracteres, obrigatório
+- `email` UNI QUE, varchar, obrigatório
+- `password` varchar, min 8 caracteres, obrigatório
 
 ### User_role
 
-- `role.id` FK, uuid, obrigatório
-- `user.id` FK, uuid, obrigatório
+- `role_id` FK, uuid, obrigatório
+- `user_id` FK, uuid, obrigatório
 
 ### Role
 
@@ -20,8 +20,8 @@
 
 ### Role_permission
 
-- `role.id` FK, uuid, obrigatório
-- `permission.id` FK, uuid, obrigatório
+- `role_id` FK, uuid, obrigatório
+- `permission_id` FK, uuid, obrigatório
 
 ### Permissions
 

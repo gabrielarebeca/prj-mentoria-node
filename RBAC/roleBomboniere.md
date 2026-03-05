@@ -1,7 +1,7 @@
 # ROLE BOMBONIERE
 
-- `admin.bomboniere` Administrador do sistema
-- `client.bomboniere` Usuário que faz pedido
-- `atendente.bomboniere` Funcionário que prepara e entrega pedido
-- `gerente.bomboniere` Gerencia o sistema
-- `estoquista.bomboniere` Faz o controle de estoque dos ingredientes
+- `admin_bomboniere` Administrador do sistema
+- `client_bomboniere` Usuário que faz pedido
+- `atendente_bomboniere` Funcionário que prepara e entrega pedido
+- `gerente_bomboniere` Gerencia o sistema
+- `estoquista_bomboniere` Faz o controle de estoque dos ingredientes
