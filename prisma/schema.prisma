@@ -18,9 +18,9 @@ model Owner {
   name      String
   phone     String
 
-  patient   Patient[]
+  patients  OwnerPatient[]
 
-    createdAt DateTime  @default(now())
+  createdAt DateTime  @default(now())
 }
 
 model Patient {
@@ -28,9 +28,18 @@ model Patient {
   name      String
   species   String
 
-
-  ownerId   String
-  owner     Owner     @relation(fields: [ownerId], references:[id], onDelete: Restrict)
+  owners    OwnerPatient[]
 
   createdAt DateTime  @default(now())
+}
+
+model OwnerPatient {
+  ownerId     String
+  patientId   String
+
+  createdAt DateTime  @default(now())
+
+  owner     Owner     @relation(fields: [ownerId], references:[id], onDelete: Restrict)
+  patient   Patient   @relation(fields: [patientId], references:[id], onDelete: Restrict)
+  @@id([ownerId, patientId])
 }
