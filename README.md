@@ -2,16 +2,31 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, duplicate `.env.example` file to `.env` and add the correct values
+
+Instal modules
+
+```bash
+npm run instal
+```
+
+Then init db
+
+```bash
+npm run db:init
+npm run db:migrate
+```
+
+Then you can run the server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+
+You can use to see database
+
+```bash
+npx prisma studio
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
